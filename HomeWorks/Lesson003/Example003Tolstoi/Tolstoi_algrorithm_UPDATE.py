@@ -6,7 +6,7 @@ with open('tolstoi.txt', 'r', encoding='utf-8') as data:
     for line in data:
         text += ' ' + line.lower() 
         print(f'text + done {line}')
-print('Open complete!')
+    print('Open complete!')
 
 ls = text.split()
 
