@@ -5,8 +5,6 @@ import Files as fs
 print(fs.color)
 
 # Значения по умолчанию
-
-
 def new_string(symb, count=3):
     return symb*count
 
@@ -15,7 +13,7 @@ print(new_string('!', 5))   # !!!!!
 print(new_string('!'))  # !!!
 print(new_string(5))    # 15
 
-
+# Неограниченное количество аргументов
 def concantenatio(*params):
     res: str = ""
     for item in params:
