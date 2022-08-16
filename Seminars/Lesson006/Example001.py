@@ -74,7 +74,6 @@ def set_cell(item,choice):
             case '8': matrix[2][1] = f'{item}'
             case '9': matrix[2][2] = f'{item}'
 
-
 def view_matrix():
     print()
     for rows in matrix:
@@ -93,7 +92,6 @@ def de_coder_bot_msg(lst):
         case [2, 0]: return "7"
         case [2, 1]: return "8"
         case [2, 2]: return "9"
-
 
 def check_cell(choice):
         match choice:
@@ -185,8 +183,7 @@ def check_tie():
         return True
     else: 
         return False
-            
-
+# *-----------------------------------------------------------*
 
 
 global matrix
