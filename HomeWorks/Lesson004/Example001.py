@@ -9,11 +9,5 @@ def pr(n):
     return res
 
 number = int(input('Введите натуральное число: '))
-# Я так и не понял как работает try except, пока не успеваю разобраться...
-# try:
-#     numbers = int(number)
-# except:
-#     'Ошибка: введенное число, не является натуральным'
-
 
 print(pr(number))
